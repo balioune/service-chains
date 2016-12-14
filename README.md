@@ -1,3 +1,9 @@
+# vagrant 1.8.1 et virtualbox 5.0.24
+
+# Creer des boxes vagrant
+vagrant box add xenial ./xenial.box
+vagrant box add trusty ./trusty.box
+
 ### Installer le controlleur OpenDaylight
 
 sudo apt-get -y install openjdk-8-jdk
