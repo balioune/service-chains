@@ -2,8 +2,8 @@
 
 # Creer des boxes vagrant
 
-vagrant box add xenial ./xenial.box
-vagrant box add trusty ./trusty.box
+- vagrant box add xenial ./xenial.box
+- vagrant box add trusty ./trusty.box
 
 ### Installer le controlleur OpenDaylight
 
