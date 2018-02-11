@@ -1,0 +1,392 @@
+INFO:sfc/sfc_agent.py:ODL locator: 192.168.1.5:8181
+INFO:sfc/sfc_agent.py:
+
+====== STARTING SFC AGENT ======
+INFO:sfc/sfc_agent.py:
+
+SFC Agent will listen to Opendaylight REST Messages and take any
+appropriate action such as creating, deleting, updating  SFs, SFFs,
+ or classifier. 
+
+INFO:werkzeug: * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+INFO:sfc/sfc_agent.py:ODL locator: 192.168.1.5:8181
+INFO:sfc/sfc_agent.py:
+
+====== STARTING SFC AGENT ======
+INFO:sfc/sfc_agent.py:
+
+SFC Agent will listen to Opendaylight REST Messages and take any
+appropriate action such as creating, deleting, updating  SFs, SFFs,
+ or classifier. 
+
+INFO:werkzeug: * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+INFO:sfc/sfc_agent.py:Received request for SF creation: dpi-1
+INFO:sfc/sfc_agent.py:Received request for SF creation: firewall-1
+INFO:sfc/sfc_agent.py:Received request from ODL to create SF ...
+INFO:sfc.common.launcher:Starting Service Function: dpi-1
+INFO:sfc.common.launcher:Starting DPI serving as dpi-1 at 192.168.1.30:6633, service type:dpi 
+INFO:sfc.common.launcher:Starting Service Function: firewall-1
+INFO:sfc.common.launcher:Starting control UDP server for dpi-1 at 192.168.1.30:6000
+3, service type:firewall 
+INFO:sfc.common.launcher:Starting control UDP server for firewall-1 at 192.168.1.40:6000
+INFO:werkzeug:192.168.1.5 - - [04/Jul/2017 14:10:50] "PUT /config/service-function:service-functions/service-function/dpi-1 HTTP/1.1" 201 -
+INFO:werkzeug:192.168.1.5 - - [04/Jul/2017 14:10:50] "PUT /config/service-function:service-functions/service-function/firewall-1 HTTP/1.1" 201 -
+INFO:sfc.common.services:dpi service received packet from ('192.168.1.20', 49289):
+INFO:sfc.common.services:dpi service received packet from ('192.168.1.20', 49289):
+INFO:sfc.common.services:dpi: sending packets to ('192.168.1.20', 6633)
+INFO:sfc.common.services:firewall service received packet from ('192.168.1.50', 49289):
+INFO:sfc.common.services:firewall service received packet from ('192.168.1.50', 49289):
+INFO:sfc.common.services:firewall: sending packets to ('192.168.1.50', 6633)
+INFO:sfc.common.services:firewall service received packet from ('192.168.1.50', 47472):
+INFO:sfc.common.services:firewall service received packet from ('192.168.1.50', 47472):
+INFO:INFO:sfc.common.services:dpi service received packet from ('192.168.1.20', 47472):
+INFO:sfc.common.services:dpi service received packet from ('192.168.1.20', 47472):
+INFO:sfc.common.services:dpi: sending packets to ('192.168.1.20', 6633)
+INFO:sfc.common.services:dpi service received packet from ('192.168.1.20', 49289):
+INFO:sfc.common.services:dpi service received packet from ('192.168.1.20', 49289):
+INFO:sfc.common.services:dpi service received packet from ('192.168.1.20', 49289):
+INFO:sfc.common.services:dpi: sending packets to ('192.168.1.20', 6633)
+INFO:sfc.common.services:dpi service received packet from ('192.168.1.20', 49289):
+89):
+INFO:sfc.common.services:firewall service received packet from ('192.168.1.50', 49289):
+INFO:sfc.common.services:dpi: sending packets to ('192.168.1.20', 6633)
+INFO:sfc.common.services:firewall service received packet from ('192.168.1.50', 49289):
+INFO:sfc.common.services:firewall: sending packets to ('192.168.1.50', 6633)
+INFO:sfc.common.services:firewall service received packet from ('192.168.1.50', 49289):
+INFO:sfc.common.services:firewall service received packet from ('192.168.1.50', 47472):
+INFO:sfc.common.services:firewall: sending packets to ('192.168.1.50', 6633)
+INFO:sfc.common.services:firewall service received packet from ('192.168.1.50', 47472):
+INFO:sfc.common.services:firewall service received packet from ('192.168.1.50', 47472):
+INFO:sfc.common.INFO:sfc.common.services:dpi service received packet from ('192.168.1.20', 47472):
+INFO:sfc.common.services:dpi service received packet from ('192.168.1.20', 47472):
+ervices:firewall service received packet from ('192.168.1.50', 47472):
+INFO:sfc.common.services:firewall: sending packets to ('192.168.1.50', 6633)
+INFO:sfc.common.services:firewall service received packet from ('192.168.1.50', 47472):
+INFO:sfc.coINFO:sfc.common.services:dpi service received packet from ('192.168.1.20', 47472):
+INFO:sfc.common.services:dpi service received packet from ('192.168.1.20', 47472):
+INFO:sfc.common.services:dpi: sending packets to ('192.168.1.20', 6633)
+INFO:sfc.common.services:dpi service received packet from ('192.168.1.20', 47472):
+INFO:sfc.common.services:dpi: sending packets to ('192.168.1.20', 6633)
+INFO:sfc.common.services:dpi service received packet from ('192.168.1.20', 47472):
+INFO:sfc.common.services:dpi service received packet from ('192.168.1.20', 49289):
+INFO:sfc.common.services:dpi: sending packets to ('192.168.1.20', 6633)
+INFO:sfc.common.services:dpi service received packet from ('192.168.1.20', 49289):
+INFO:sfc.common.services:dpi: sending packets to ('192.168.1.20', 6633)
+INFO:sfc.common.services:dpi service received packet from ('192.168.1.20', 49289):
+INFO:INFO:sfc.common.services:dpi service received packet from ('192.168.1.20', 49289):
+INFO:sfc.common.services:firewall service received packet from ('192.168.1.50', 49INFO:sfc.common.services:dpi: sending packets to ('192.168.1.20', 6633)
+50', 6633)
+INFO:sfc.common.services:firewall service received packet from ('192.168.1.50', 49289):
+INFO:sfc.common.services:firewall service received packet from ('192.168.1.50', 49289):
+INFO:sfc.common.services:firewall: sending packets to ('192.168.1.INFO:sfc.common.services:dpi service received packet from ('192.168.1.20', 49289):
+INFO:sfc.common.services:dpi service received packet from ('192.168.1.20', 49289):
+INFO:sfc.common.services:dpi: sending packets to ('192.168.1.20', 6633)
+.1.50', 49289):
+INFO:sfc.common.services:firewall service received packet from ('192.168.1.50', 49289):
+INFO:sfc.common.services:firewall: sending packets to ('192.168.1.50', 6633)
+INFO:sfc.common.services:firewall service received packet from ('192.168.1.50', 47472):
+INFO:sfc.common.services:firewall service received packet from ('192.168.1.50', 47472):
+INFO:sfc.common.services:dpi service received packet from ('192.168.1.20', 47472):
+INFO:sfc.common.services:dpi service received packet from ('192.168.1.20', 47472):
+INFO:sfc.common.services:dpi: sending packets to ('192.168.1.20', 6633)
+INFO:sfc.common.services:firewall: sending packets to ('192.168.1.50', 6633)
+INFO:sfc.common.services:dpi service received packet from ('192.168.1.20', 49289):
+INFO:sfc.common.services:dpi service received packet from ('192.168.1.20', 49289):
+INFO:sfc.common.services:dpi: sending packets to ('192.168.1.20', 6633)
+INFO:sfc.common.services:dpi service received packet from ('192.168.1.20', 47472):
+INFO:sfc.common.services:dpi service received packet from ('192.168.1.20', 47472):
+INFO:sfc.common.services:dpi: sending packets to ('192.168.1.20', 6633)
+INFO:sfc.common.services:dpi service received packet from ('192.168.1.20', 49289):
+INFO:sfc.common.services:dpi service received packet from ('192.168.1.20', 49289):
+INFO:sfc.common.services:dpi service received packet from ('192.168.1.20', 49289):
+INFO:sfc.common.services:dpi: sending packets to ('192.168.1.20', 6633)
+INFO:sfc.common.services:dpi service received packet from ('192.168.1.20', 49289):
+INFO:sfc.common.services:dpi: sending packets to ('192.168.1.20', 6633)
+INFO:sfc.common.services:dpi service received packet from ('192.168.1.20', 47472):
+INFO:sfc.common.services:dpi service received packet from ('192.168.1.20', 47472):
+INFO:sfc.common.services:dpi service received packet from ('192.168.1.20', 47472):
+INFO:sfc.common.services:dpi service received packet from ('192.168.1.20', 47472):
+INFO:sfc.common.services:dpi: sending packets to ('192.168.1.20', 6633)
+INFO:sfc.common.services:dpi service received packet from ('192.168.1.20', 47472):
+INFO:sfc.common.services:dpi service received packet from ('192.168.1.20', 49289):
+INFO:sfc.common.services:dpi: sending packets to ('192.168.1.20', 6633)
+INFO:sfc.common.services:dpi service received packet from ('192.168.1.20', 47472):
+INFO:sfc.common.services:dpi: sending packets to ('192.168.1.20', 6633)
+INFO:sfc.common.services:dpi service received packet from ('192.168.1.20', 49289):
+INFO:sfc.common.services:dpi: sending packets to ('192.168.1.20', 6633)
+INFO:sfc.common.services:dpi service received packet from ('192.168.1.20', 49289):
+INFO:sfc.common.services:dpi service received packet from ('192.168.1.20', 49289):
+INFO:sfc.common.services:dpi: sending packets to ('192.168.1.20', 6633)
+INFO:sfc.common.services:dpi service received packet from ('192.168.1.20', 49289):
+INFO:sfc.common.services:dpi service received packet from ('192.168.1.20', 49289):
+INFO:sfc.common.services:dpi: sending packets to ('192.168.1.20', 6633)
+INFO:sfc.common.services:dpi service received packet from ('192.168.1.20', 47472):
+INFO:sfc.common.services:dpi service received packet from ('192.168.1.20', 47472):
+INFO:sfc.common.services:dpi: sending packets to ('192.168.1.20', 6633)
+INFO:sfc/sfc_agent.py:ODL locator: 192.168.1.5:8181
+INFO:sfc/sfc_agent.py:
+
+====== STARTING SFC AGENT ======
+INFO:sfc/sfc_agent.py:
+
+SFC Agent will listen to Opendaylight REST Messages and take any
+appropriate action such as creating, deleting, updating  SFs, SFFs,
+ or classifier. 
+
+INFO:werkzeug: * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+INFO:sfc/sfc_agent.py:ODL locator: 192.168.1.5:8181
+INFO:sfc/sfc_agent.py:
+
+====== STARTING SFC AGENT ======
+INFO:sfc/sfc_agent.py:
+
+SFC Agent will listen to Opendaylight REST Messages and take any
+appropriate action such as creating, deleting, updating  SFs, SFFs,
+ or classifier. 
+
+INFO:werkzeug: * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+INFO:sfc/sfc_agent.py:Received request for SF creation: firewall-1
+INFO:sfc/sfc_agent.py:Received request from ODL to create SF ...
+INFO:sfc/sfc_agent.py:Received request for SF creation: dpi-1
+INFO:sfc.common.launcher:Starting Service Function: firewall-1
+INFO:sfc/sfc_agent.py:Received request from ODL to create SF ...
+INFO:sfc.common.launcher:Starting FIREWALL serving as firewall-1 at 192.168.1.40:6633, service type:firewall 
+INFO:sfc.common.launcher:Starting Service Function: dpi-1
+INFO:sfc.common.launcher:Starting DPI serving as dpi-1 at 192.168.1.30:6633, service type:dpi 
+INFO:sfc.common.launcher:Starting control UDP server for firewall-1 at 192.168.1.40:6000
+INFO:sfc.common.launcher:Starting control UDP server for dpi-1 at 192.168.1.30:6000
+INFO:werkzeug:192.168.1.5 - - [11/Feb/2018 14:45:15] "PUT /config/service-function:service-functions/service-function/firewall-1 HTTP/1.1" 201 -
+INFO:werkzeug:192.168.1.5 - - [11/Feb/2018 14:45:15] "PUT /config/service-function:service-functions/service-function/dpi-1 HTTP/1.1" 201 -
+INFO:sfc/sfc_agent.py:ODL locator: 192.168.1.5:8181
+INFO:sfc/sfc_agent.py:
+
+====== STARTING SFC AGENT ======
+INFO:sfc/sfc_agent.py:
+
+SFC Agent will listen to Opendaylight REST Messages and take any
+appropriate action such as creating, deleting, updating  SFs, SFFs,
+ or classifier. 
+
+INFO:werkzeug: * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+INFO:sfc/sfc_agent.py:ODL locator: 192.168.1.5:8181
+INFO:sfc/sfc_agent.py:
+
+====== STARTING SFC AGENT ======
+INFO:sfc/sfc_agent.py:
+
+SFC Agent will listen to Opendaylight REST Messages and take any
+appropriate action such as creating, deleting, updating  SFs, SFFs,
+ or classifier. 
+
+INFO:werkzeug: * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+INFO:sfc/sfc_agent.py:Received request for SF creation: dpi-1
+INFO:sfc/sfc_agent.py:Received request from ODL to create SF ...
+INFO:sfc/sfc_agent.py:Received request for SF creation: firewall-1
+INFO:sfc/sfc_agent.py:Received request from ODL to create SF ...
+INFO:sfc.common.launcher:Starting Service Function: dpi-1
+INFO:sfc.common.launcher:Starting Service Function: firewall-1
+INFO:sfc.common.launcher:Starting DPI serving as dpi-1 at 192.168.1.30:6633, service type:dpi 
+INFO:sfc.common.launcher:Starting FIREWALL serving as firewall-1 at 192.168.1.40:6633, service type:firewall 
+INFO:sfc.common.launcher:Starting control UDP server for firewall-1 at 192.168.1.40:6000
+INFO:sfc.common.launcher:Starting control UDP server for dpi-1 at 192.168.1.30:6000
+INFO:werkzeug:192.168.1.5 - - [11/Feb/2018 15:21:03] "PUT /config/service-function:service-functions/service-function/firewall-1 HTTP/1.1" 201 -
+INFO:werkzeug:192.168.1.5 - - [11/Feb/2018 15:21:03] "PUT /config/service-function:service-functions/service-function/dpi-1 HTTP/1.1" 201 -
+INFO:sfc.common.services:dpi service received packet from ('192.168.1.20', 49289):
+INFO:sfc.common.services:dpi service received packet from ('192.168.1.20', 49289):
+INFO:sfc.common.services:dpi: sending packets to ('192.168.1.20', 6633)
+INFO:sfc.common.services:firewall service received packet from ('192.168.1.50', 49289):
+INFO:sfc.common.services:firewall service received packet from ('192.168.1.50', 49289):
+INFO:sfc.common.services:firewall: sending packets to ('192.168.1.50', 6633)
+INFO:sfc.common.services:firewall service received packet from ('192.168.1.50', 47472):
+INFO:sfc.common.services:firewall service received packet from ('192.168.1.50', 47472):
+INFO:sfc.common.services:firewall: sending packets to ('192.168.1.50', 6633)
+INFO:sfc.common.services:dpi service received packet from ('192.168.1.20', 47472):
+INFO:sfc.common.services:dpi service received packet from ('192.168.1.20', 47472):
+INFO:sfc.common.services:dpi: sending packets to ('192.168.1.20', 6633)
+INFO:sfc.common.services:dpi service received packet from ('192.168.1.20', 49289):
+INFO:sfc.common.services:dpi service received packet from ('192.168.1.20', 49289):
+INFO:sfc.common.services:dpi service received packet from ('192.168.1.20', 49289):
+INFO:sfc.common.services:dpi: sending packets to ('192.168.1.20', 6633)
+INFO:sfc.common.services:dpi service received packet from ('192.168.1.20', 49289):
+INFO:sfc.common.services:dpi: sending packets to ('192.168.1.20', 6633)
+INFO:sfc.common.services:firewall service received packet from ('192.168.1.50', 49289):
+INFO:sfc.common.services:firewall service received packet from ('192.168.1.50', 49289):
+INFO:sfc.common.services:firewall service received packet from ('192.168.1.50', 49289):
+INFO:sfc.common.services:firewall: sending packets to ('192.168.1.50', 6633)
+INFO:sfc.common.services:firewall service received packet from ('192.168.1.50', 49289):
+INFO:sfc.common.services:firewall: sending packets to ('192.168.1.50', 6633)
+INFO:sfc.common.services:firewall service received packet from ('192.168.1.50', 47472):
+INFO:sfc.common.services:firewall service received packet from ('192.168.1.50', 47472):
+INFO:sfc.common.services:firewall: sending packets to ('192.168.1.50', 6633)
+INFO:sfc.common.services:dpi service received packet from ('192.168.1.20', 47472):
+INFO:sfc.common.services:firewall service received packet from ('192.168.1.50', 47472):
+INFO:sfc.common.services:dpi service received packet from ('192.168.1.20', 47472):
+INFO:sfc.common.services:dpi: sending packets to ('192.168.1.20', 6633)
+INFO:sfc.common.services:firewall service received packet from ('192.168.1.50', 47472):
+INFO:sfc.common.services:firewall service received packet from ('192.168.1.50', 47472):
+INFO:sfc.common.services:firewall: sending packets to ('192.168.1.50', 6633)
+INFO:sfc.common.services:firewall service received packet from ('192.168.1.50', 47472):
+INFO:sfc.common.services:firewall: sending packets to ('192.168.1.50', 6633)
+INFO:sfc.common.services:dpi service received packet from ('192.168.1.20', 47472):
+INFO:sfc.common.services:dpi service received packet from ('192.168.1.20', 47472):
+INFO:sfc.common.services:dpi: sending packets to ('192.168.1.20', 6633)
+INFO:sfc.common.services:dpi service received packet from ('192.168.1.20', 47472):
+INFO:sfc.common.services:dpi service received packet from ('192.168.1.20', 49289):
+INFO:sfc.common.services:dpi service received packet from ('192.168.1.20', 47472):
+INFO:sfc.common.services:dpi: sending packets to ('192.168.1.20', 6633)
+INFO:sfc.common.services:dpi service received packet from ('192.168.1.20', 49289):
+INFO:sfc.common.services:dpi service received packet from ('192.168.1.20', 49289):
+INFO:sfc.common.services:dpi: sending packets to ('192.168.1.20', 6633)
+INFO:sfc.common.services:firewall service received packet from ('192.168.1.50', 49289):
+INFO:sfc.common.services:dpi service received packet from ('192.168.1.20', 49289):
+INFO:sfc.common.services:firewall service received packet from ('192.168.1.50', 49289):
+INFO:sfc.common.services:dpi: sending packets to ('192.168.1.20', 6633)
+INFO:sfc.common.services:firewall: sending packets to ('192.168.1.50', 6633)
+INFO:sfc.common.services:firewall service received packet from ('192.168.1.50', 49289):
+INFO:sfc.common.services:firewall service received packet from ('192.168.1.50', 49289):
+INFO:sfc.common.services:firewall: sending packets to ('192.168.1.50', 6633)
+INFO:sfc.common.services:dpi service received packet from ('192.168.1.20', 49289):
+INFO:sfc.common.services:dpi service received packet from ('192.168.1.20', 49289):
+INFO:sfc.common.services:dpi: sending packets to ('192.168.1.20', 6633)
+INFO:sfc.common.services:firewall service received packet from ('192.168.1.50', 49289):
+INFO:sfc.common.services:firewall service received packet from ('192.168.1.50', 49289):
+INFO:sfc.common.services:firewall: sending packets to ('192.168.1.50', 6633)
+INFO:sfc.common.services:firewall service received packet from ('192.168.1.50', 47472):
+INFO:sfc.common.services:firewall service received packet from ('192.168.1.50', 47472):
+INFO:sfc.common.services:dpi service received packet from ('192.168.1.20', 47472):
+INFO:sfc.common.services:dpi service received packet from ('192.168.1.20', 47472):
+INFO:sfc.common.services:firewall: sending packets to ('192.168.1.50', 6633)
+INFO:sfc.common.services:dpi: sending packets to ('192.168.1.20', 6633)
+INFO:sfc/sfc_agent.py:ODL locator: 192.168.1.5:8181
+INFO:sfc/sfc_agent.py:
+
+====== STARTING SFC AGENT ======
+INFO:sfc/sfc_agent.py:
+
+SFC Agent will listen to Opendaylight REST Messages and take any
+appropriate action such as creating, deleting, updating  SFs, SFFs,
+ or classifier. 
+
+INFO:werkzeug: * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+INFO:sfc/sfc_agent.py:ODL locator: 192.168.1.5:8181
+INFO:sfc/sfc_agent.py:
+
+====== STARTING SFC AGENT ======
+INFO:sfc/sfc_agent.py:
+
+SFC Agent will listen to Opendaylight REST Messages and take any
+appropriate action such as creating, deleting, updating  SFs, SFFs,
+ or classifier. 
+
+INFO:werkzeug: * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+INFO:sfc/sfc_agent.py:Received request for SF creation: firewall-1
+INFO:sfc/sfc_agent.py:Received request for SF creation: dpi-1
+INFO:sfc/sfc_agent.py:Received request from ODL to create SF ...
+INFO:sfc/sfc_agent.py:Received request from ODL to create SF ...
+INFO:sfc.common.launcher:Starting Service Function: firewall-1
+INFO:sfc.common.launcher:Starting FIREWALL serving as firewall-1 at 192.168.1.40:6633, service type:firewall 
+INFO:sfc.common.launcher:Starting control UDP server for firewall-1 at 192.168.1.40:6000
+INFO:sfc.common.launcher:Starting Service Function: dpi-1
+INFO:sfc.common.launcher:Starting DPI serving as dpi-1 at 192.168.1.30:6633, service type:dpi 
+INFO:sfc.common.launcher:Starting control UDP server for dpi-1 at 192.168.1.30:6000
+INFO:werkzeug:192.168.1.5 - - [11/Feb/2018 19:32:48] "PUT /config/service-function:service-functions/service-function/firewall-1 HTTP/1.1" 201 -
+INFO:werkzeug:192.168.1.5 - - [11/Feb/2018 19:32:48] "PUT /config/service-function:service-functions/service-function/dpi-1 HTTP/1.1" 201 -
+INFO:sfc.common.services:dpi service received packet from ('192.168.1.20', 49289):
+INFO:sfc.common.services:dpi service received packet from ('192.168.1.20', 49289):
+INFO:sfc.common.services:dpi: sending packets to ('192.168.1.20', 6633)
+INFO:sfc.common.services:firewall service received packet from ('192.168.1.50', 49289):
+INFO:sfc.common.services:firewall service received packet from ('192.168.1.50', 49289):
+INFO:sfc.common.services:firewall: sending packets to ('192.168.1.50', 6633)
+INFO:sfc.common.services:firewall service received packet from ('192.168.1.50', 47472):
+INFO:sfc.common.services:firewall service received packet from ('192.168.1.50', 47472):
+INFO:sfc.common.services:firewall: sending packets to ('192.168.1.50', 6633)
+INFO:sfc.common.services:dpi service received packet from ('192.168.1.20', 47472):
+INFO:sfc.common.services:dpi service received packet from ('192.168.1.20', 47472):
+INFO:sfc.common.services:dpi: sending packets to ('192.168.1.20', 6633)
+INFO:sfc.common.services:dpi service received packet from ('192.168.1.20', 49289):
+INFO:sfc.common.services:dpi service received packet from ('192.168.1.20', 49289):
+INFO:sfc.common.services:dpi: sending packets to ('192.168.1.20', 6633)
+INFO:sfc.common.services:dpi service received packet from ('192.168.1.20', 49289):
+INFO:sfc.common.services:dpi service received packet from ('192.168.1.20', 49289):
+INFO:sfc.common.services:firewall service received packet from ('192.168.1.50', 49289):
+INFO:sfc.common.services:dpi: sending packets to ('192.168.1.20', 6633)
+INFO:sfc.common.services:firewall service received packet from ('192.168.1.50', 49289):
+INFO:sfc.common.services:firewall: sending packets to ('192.168.1.50', 6633)
+INFO:sfc.common.services:firewall service received packet from ('192.168.1.50', 49289):
+INFO:sfc.common.services:firewall service received packet from ('192.168.1.50', 49289):
+INFO:sfc.common.services:firewall: sending packets to ('192.168.1.50', 6633)
+INFO:sfc.common.services:firewall service received packet from ('192.168.1.50', 47472):
+INFO:sfc.common.services:firewall service received packet from ('192.168.1.50', 47472):
+INFO:sfc.common.services:firewall: sending packets to ('192.168.1.50', 6633)
+INFO:sfc.common.services:firewall service received packet from ('192.168.1.50', 47472):
+INFO:sfc.common.services:dpi service received packet from ('192.168.1.20', 47472):
+INFO:sfc.common.services:firewall service received packet from ('192.168.1.50', 47472):
+INFO:sfc.common.services:dpi service received packet from ('192.168.1.20', 47472):
+INFO:sfc.common.services:firewall service received packet from ('192.168.1.50', 47472):
+INFO:sfc.common.services:dpi: sending packets to ('192.168.1.20', 6633)
+INFO:sfc.common.services:firewall: sending packets to ('192.168.1.50', 6633)
+INFO:sfc.common.services:firewall service received packet from ('192.168.1.50', 47472):
+INFO:sfc.common.services:firewall: sending packets to ('192.168.1.50', 6633)
+INFO:sfc.common.services:dpi service received packet from ('192.168.1.20', 47472):
+INFO:sfc.common.services:dpi service received packet from ('192.168.1.20', 47472):
+INFO:sfc.common.services:dpi service received packet from ('192.168.1.20', 47472):
+INFO:sfc.common.services:dpi: sending packets to ('192.168.1.20', 6633)
+INFO:sfc.common.services:dpi service received packet from ('192.168.1.20', 47472):
+INFO:sfc.common.services:dpi: sending packets to ('192.168.1.20', 6633)
+INFO:sfc.common.services:dpi service received packet from ('192.168.1.20', 49289):
+INFO:sfc.common.services:dpi service received packet from ('192.168.1.20', 49289):
+INFO:sfc.common.services:dpi service received packet from ('192.168.1.20', 49289):
+INFO:sfc.common.services:dpi: sending packets to ('192.168.1.20', 6633)
+INFO:sfc.common.services:dpi service received packet from ('192.168.1.20', 49289):
+INFO:sfc.common.services:dpi: sending packets to ('192.168.1.20', 6633)
+INFO:sfc.common.services:firewall service received packet from ('192.168.1.50', 49289):
+INFO:sfc.common.services:firewall service received packet from ('192.168.1.50', 49289):
+INFO:sfc.common.services:firewall service received packet from ('192.168.1.50', 49289):
+INFO:sfc.common.services:firewall: sending packets to ('192.168.1.50', 6633)
+INFO:sfc.common.services:firewall service received packet from ('192.168.1.50', 49289):
+INFO:sfc.common.services:firewall: sending packets to ('192.168.1.50', 6633)
+INFO:sfc.common.services:dpi service received packet from ('192.168.1.20', 49289):
+INFO:sfc.common.services:dpi service received packet from ('192.168.1.20', 49289):
+INFO:sfc.common.services:dpi: sending packets to ('192.168.1.20', 6633)
+INFO:sfc.common.services:firewall service received packet from ('192.168.1.50', 49289):
+INFO:sfc.common.services:firewall service received packet from ('192.168.1.50', 49289):
+INFO:sfc.common.services:firewall: sending packets to ('192.168.1.50', 6633)
+INFO:sfc.common.services:firewall service received packet from ('192.168.1.50', 47472):
+INFO:sfc.common.services:firewall service received packet from ('192.168.1.50', 47472):
+INFO:sfc.common.services:firewall: sending packets to ('192.168.1.50', 6633)
+INFO:sfc.common.services:dpi service received packet from ('192.168.1.20', 47472):
+INFO:sfc.common.services:dpi service received packet from ('192.168.1.20', 47472):
+INFO:sfc.common.services:dpi: sending packets to ('192.168.1.20', 6633)
+INFO:sfc.common.services:dpi service received packet from ('192.168.1.20', 49289):
+INFO:sfc.common.services:dpi service received packet from ('192.168.1.20', 49289):
+INFO:sfc.common.services:dpi: sending packets to ('192.168.1.20', 6633)
+INFO:sfc.common.services:dpi service received packet from ('192.168.1.20', 47472):
+INFO:sfc.common.services:dpi service received packet from ('192.168.1.20', 47472):
+INFO:sfc.common.services:dpi: sending packets to ('192.168.1.20', 6633)
+INFO:sfc.common.services:dpi service received packet from ('192.168.1.20', 49289):
+INFO:sfc.common.services:dpi service received packet from ('192.168.1.20', 49289):
+INFO:sfc.common.services:dpi service received packet from ('192.168.1.20', 49289):
+INFO:sfc.common.services:dpi: sending packets to ('192.168.1.20', 6633)
+INFO:sfc.common.services:dpi service received packet from ('192.168.1.20', 49289):
+INFO:sfc.common.services:dpi: sending packets to ('192.168.1.20', 6633)
+INFO:sfc.common.services:dpi service received packet from ('192.168.1.20', 47472):
+INFO:sfc.common.services:dpi service received packet from ('192.168.1.20', 47472):
+INFO:sfc.common.services:dpi service received packet from ('192.168.1.20', 47472):
+INFO:sfc.common.services:dpi: sending packets to ('192.168.1.20', 6633)
+INFO:sfc.common.services:dpi service received packet from ('192.168.1.20', 47472):
+INFO:sfc.common.services:dpi service received packet from ('192.168.1.20', 47472):
+INFO:sfc.common.services:dpi: sending packets to ('192.168.1.20', 6633)
+INFO:sfc.common.services:dpi service received packet from ('192.168.1.20', 47472):
+INFO:sfc.common.services:dpi: sending packets to ('192.168.1.20', 6633)
+INFO:sfc.common.services:dpi service received packet from ('192.168.1.20', 49289):
+INFO:sfc.common.services:dpi service received packet from ('192.168.1.20', 49289):
+INFO:sfc.common.services:dpi service received packet from ('192.168.1.20', 49289):
+INFO:sfc.common.services:dpi: sending packets to ('192.168.1.20', 6633)
+INFO:sfc.common.services:dpi service received packet from ('192.168.1.20', 49289):
+INFO:sfc.common.services:dpi: sending packets to ('192.168.1.20', 6633)
+INFO:sfc.common.services:dpi service received packet from ('192.168.1.20', 49289):
+INFO:sfc.common.services:dpi service received packet from ('192.168.1.20', 49289):
+INFO:sfc.common.services:dpi: sending packets to ('192.168.1.20', 6633)
+INFO:sfc.common.services:dpi service received packet from ('192.168.1.20', 47472):
+INFO:sfc.common.services:dpi service received packet from ('192.168.1.20', 47472):
+INFO:sfc.common.services:dpi: sending packets to ('192.168.1.20', 6633)
